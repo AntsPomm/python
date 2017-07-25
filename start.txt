@@ -1,0 +1,4 @@
+testversioon! >> start.txt
+clear
+ls
+
