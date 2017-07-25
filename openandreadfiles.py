@@ -1,0 +1,12 @@
+fail = open("example.txt", 'r')
+print (type(fail))
+content =fail.read()
+print (content)
+content =fail.readlines()
+print (content)
+fail.seek(0)
+content =fail.readlines()
+print (content)
+content =[i.rstrip("\n") for i in content]
+print (content)
+fail.close()
